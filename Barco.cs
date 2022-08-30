@@ -1,9 +1,12 @@
 ﻿using System;
 
-public class Barco : Aquatico		
+public class Barco : Aquatico
+
 {
-	public Barco(int capacidade): base(capacidade)
+	public List<Motor> motor = new List<Motor>();
+	public Barco(int capacidade, List<Motor> motor): base(capacidade)
 	{
-		
+		this.motor  = motor;
 	}
+	
 }
