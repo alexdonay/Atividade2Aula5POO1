@@ -15,7 +15,7 @@ namespace Atividade2Aula5
             Motor poupa = new Motor(1600,"yamaha");
             List<Motor> MotorList = new List<Motor>();
             MotorList.Add(poupa);
-            Barco navio = new Barco(22, MotorList);
+            Barco navio = new Barco(22, MotorList, MotorList.Count);
             Motor poupa2 = navio.motor[0];
             MessageBox.Show(navio.motor[0].marca.ToString());
             
