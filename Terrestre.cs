@@ -3,9 +3,9 @@
 public class Terrestre : Transporte
 {	
 	public int QuantidadeRodas { get; set; }
-	public Terrestre(int quantidadeRodas)
+	public Terrestre(int Capacidade, int QuantidadeRodas) : base (Capacidade)
     {
-        QuantidadeRodas = quantidadeRodas;
+        this.Capacidade = Capacidade;
     }
 }
 

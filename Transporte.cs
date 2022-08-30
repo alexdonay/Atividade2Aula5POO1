@@ -4,8 +4,8 @@ public class Transporte
 {
 	public int Capacidade { get; set; }
 
-	public Transporte()
+	public Transporte(int Capacidade )
 	{
-		
+		this.Capacidade = Capacidade;
 	}
 }

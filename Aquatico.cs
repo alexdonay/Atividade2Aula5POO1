@@ -2,7 +2,7 @@
 
 public class Aquatico : Transporte
 {
-	public Aquatico()
+	public Aquatico(int capacidade): base(capacidade)
 	{
 	}
 }

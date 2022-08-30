@@ -2,7 +2,8 @@
 
 public class Barco : Aquatico		
 {
-	public Barco()
+	public Barco(int capacidade): base(capacidade)
 	{
+		
 	}
 }

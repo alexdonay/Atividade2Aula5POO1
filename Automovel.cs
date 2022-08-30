@@ -6,12 +6,12 @@ public class Automovel : Terrestre
     public int quantidadePortas { get; set; }
     public string placa { get; set; }
 
-    public Automovel(int quantidadeRodas, string cor, int quantidadePortas, string placa) : base(quantidadeRodas)
+   
+    public Automovel(int Capacidade, int QuantidadeRodas, string cor, string placa, string quantidadePortas):base(Capacidade, QuantidadeRodas)
     {
         this.cor = cor;
-        this.quantidadePortas = quantidadePortas;
-        this.placa = placa;
+        this.quantidadePortas = QuantidadeRodas;
+        this .placa = placa;
     }
-
 
 }
